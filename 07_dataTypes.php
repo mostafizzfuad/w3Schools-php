@@ -54,8 +54,7 @@ echo PHP_EOL;
 
 
 
-/// object : Classes and objects are the two main aspects of object-oriented programming.
-
+// object : Classes and objects are the two main aspects of object-oriented programming.
 
 
 // resource : The special resource type is not an actual data type. It is the storing of a reference to functions and resources external to PHP. A common example of using the resource data type is a database call.
