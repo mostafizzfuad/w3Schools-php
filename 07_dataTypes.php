@@ -2,7 +2,7 @@
 
 // string 
 $name = "Mostafizur Rahman Fuad";
-echo $name;
+var_dump($name);
 
 echo PHP_EOL;
 echo PHP_EOL;
