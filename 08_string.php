@@ -18,6 +18,9 @@ echo strpos("Mostafizur Rahman Fuad", "Rahman"); // searches for a specific text
 
 echo PHP_EOL;
 echo str_replace("Fuad", "Siam", "My name is Fuad"); // replace Fuad by Siam
+echo PHP_EOL;
+$name = "My name is Fuad";
+echo str_replace("Fuad", "Siam", $name); // replace Fuad by Siam
 
 
 echo PHP_EOL;

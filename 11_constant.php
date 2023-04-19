@@ -1,6 +1,8 @@
 <?php
 
 // constant
+
+// define(NAME, VALUE);
 define("FUAD", "Mostafizur Rahman Fuad"); // case-sensitive
 echo FUAD;
 
