@@ -94,7 +94,7 @@ echo PHP_EOL;
 // ********** Null coalescing operators ********** //
 
 $defaultAutoPassMark = 70;
-//$studentMark = 45;
+$studentMark = 45; // comment this statement -> print 70
 
 $result = $studentMark ?? $defaultAutoPassMark; // if user input studentMark => print studentMark ; otherwise print default
 
