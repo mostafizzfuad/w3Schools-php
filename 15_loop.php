@@ -95,7 +95,7 @@ echo PHP_EOL;
 /********* break statement *********/
 for ($x = 1; $x < 10; $x++) {
     if ($x == 5) {
-      break;
+        break;
     }
     echo $x. " ";
 }
@@ -108,7 +108,7 @@ echo PHP_EOL;
 /********* continue statement *********/
 for ($x = 1; $x < 10; $x++) {
     if ($x == 5) {
-      continue;
+        continue;
     }
     echo $x. " ";
 }
