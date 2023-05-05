@@ -110,3 +110,72 @@ echo PHP_EOL;
 
 
 /********* Sorting Arrays *********/
+
+// sort() : ascending alphabetical order
+$cars = array("Volvo", "BMW", "Toyota");
+sort($cars);
+$carLengths = count($cars);
+
+for ($i = 0; $i < $carLengths; $i++) {
+    echo $cars[$i]. "\n";
+}
+
+
+echo PHP_EOL;
+echo PHP_EOL;
+
+
+// sort() : ascending numerical order
+$numbers = array(4, 6, 2, 22, 11);
+sort($numbers);
+$arrLength = count($numbers);
+
+for ($i = 0; $i < $arrLength; $i++) {
+    echo $numbers[$i]. "\t";
+}
+
+
+// Descending Order - rsort()  : same as upper example
+
+
+echo PHP_EOL;
+echo PHP_EOL;
+
+
+/****** Sort Array (Ascending Order), According to Value - asort() :
+note : sorts an associative array in ascending order, according to the value */
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+asort($age);
+
+foreach($age as $x => $x_value) {
+    echo "Key=" . $x . ", Value=" . $x_value; // sort by value
+    echo "\n";
+}
+
+
+
+
+echo PHP_EOL;
+echo PHP_EOL;
+
+
+/****** Sort Array (Ascending Order), According to Key - ksort() :
+note : sorts an associative array in ascending order, according to the key */
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+ksort($age);
+
+foreach($age as $x => $x_value) {
+    echo "Key=" . $x . ", Value=" . $x_value; // sort by value
+    echo "\n";
+}
+
+
+
+/****** Sort Array (Descending Order), According to Value - arsort() :
+note : sorts an associative array in descending order, according to the value */
+
+
+
+/****** Sort Array (Descending Order), According to Key - krsort() :
+note : sorts an associative array in descending order, according to the key */
+
