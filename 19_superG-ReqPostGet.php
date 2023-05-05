@@ -9,10 +9,8 @@
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">  
     <!-- $SERVER['PHP_SELF'] : same page এর url কে ধরার জন্য ইউজ করা হয়েছে । অর্থাৎ, action একই পেজের মধ্যে ঘটবে -->
-        <label> Name 
-            <input type="text" name="fname"> 
-            <input type="submit" value="Submit">
-        </label>
+        <label> Name <input type="text" name="fname"></label>
+        <input type="submit" value="Submit">
     </form>
 
     <?php
