@@ -1,5 +1,5 @@
 <?php
 
-echo "My first PHP script !";
+echo "Mostafizur Rahman Fuad";
 echo PHP_EOL;
-echo "Hello World !";
+echo "Hello Programmer's !";
